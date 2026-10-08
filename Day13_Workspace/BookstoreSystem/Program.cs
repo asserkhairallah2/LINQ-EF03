@@ -1,12 +1,15 @@
-﻿using System;
+using System;
+using BookstoreSystem.Contexts;
 
 namespace BookstoreSystem
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            #region App Entry Point
+            Console.WriteLine("Bookstore System Initialized Successfully!");
+            #endregion
         }
     }
 }
